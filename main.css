@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+    grid-auto-rows: minmax(100px,auto);
+    align-items: center;
+}
+
+
+.grid > div{
+    background: #ecf0f1;
+    padding: 1em;
+}
+
+.grid > div:hover{
+    border:1px solid #f1c40f;
+}
